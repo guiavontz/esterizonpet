@@ -1,11 +1,64 @@
-# MazyOS — Sistema operacional do negócio
+# Esterizon — MazyOS
 
-Sua empresa roda em cima desse arquivo. Aqui ficam as regras de operação
-do MazyOS — como o Claude lê o contexto, aprende com correções, mantém
-tudo atualizado e cria skills novas conforme a operação evolui.
+Sistema operacional do negócio da Esterizon.
+Aqui ficam as regras de operação do MazyOS — como o Claude lê o contexto,
+aprende com correções, mantém tudo atualizado e cria skills novas conforme
+a operação evolui.
 
-Esse arquivo é editável. Quando o `/instalar` rodar, ele complementa o
-final dessa página com as regras específicas do seu negócio.
+## O que é esse workspace
+
+Operação da Esterizon — empresa industrial de equipamentos de ozonização e
+nanonização pro mercado pet (banho com água nanOnizada, óleo vegetal
+nanOnizado, purificação de água), tocada sozinho pelo fundador.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a empresa, como falamos, foco atual
+- `identidade/` — marca aplicada em tudo que o sistema gera
+- `marketing/` — conteúdo, campanhas, carrosséis e posts pro Instagram
+- `saidas/` — documentos pontuais
+- `dados/` — arquivos a analisar
+- `scripts/` — automações e scripts de apoio
+
+## Sobre a empresa
+
+Esterizon é uma empresa industrial que entrega novidade e
+qualidade exclusiva no mundo dos petshops: equipamentos de ozonização e
+nanonização de água e óleo vegetal, com credibilidade técnica (ex:
+certificação UNICAMP). Atende petshops interessados nas máquinas.
+Operação tocada sozinho pelo fundador, sem setores formais — marketing,
+comercial e operações são a mesma pessoa.
+
+## O que mais fazemos aqui
+
+- Postagens e carrosséis pro Instagram (@esterizon.oficial)
+- Construção de um site profissional
+- Conteúdo educativo/promocional sobre ozonização e nanonização pra pets
+
+## Tom de voz
+
+Direto e objetivo, sem enrolação — foco em benefício concreto e
+credibilidade técnica/científica. Ver detalhes completos em
+`_memoria/preferencias.md`.
+
+Evitar: jargão de guru, frases vazias, qualquer coisa que soe como
+"perca de tempo" pro usuário.
+
+## Regras do sistema
+
+- Sem setores formais — tudo cai na mesma pessoa, então não split
+  desnecessário de tarefas entre "áreas"
+- Peças visuais (carrossel, post, site) seguem `identidade/design-guide.md`
+  — paleta escura + azul de destaque, estilo do Instagram
+- Foco atual: fortalecer presença digital (ver `_memoria/estrategia.md`)
+
+## Ferramentas conectadas
+
+- [x] Instagram (@esterizon.oficial)
+- [ ] Site (esterizon.com.br)
+- [ ] Google Ads
+- [ ] Meta Ads
+
+*(Marcar conforme for instalando os MCPs)*
 
 ---
 
